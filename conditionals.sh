@@ -52,3 +52,38 @@ fi
 # -lt : less than
 # -le : less than or equal to
 # -ge : greater than or equal to
+
+
+
+# -------------------------FILE Conditions
+
+# -d : True if it is a directory
+# -e : True if the file/directory exists
+# -f : True if provided string is a file
+
+# -s : True if a file has a non zero size
+# -g : True if group id is set on a file
+# -u : True if the user id is set on a file
+
+# -r : True if file is readable
+# -w : True if the file is writable
+# -x : True if the file is executable
+
+
+FILE="myfile"
+
+if [ -e "$FILE" ]
+then
+    echo "$FILE condition is true"
+else
+    echo "$FILE condition is false"
+fi
+
+FILE="variables.sh"
+
+if [ -f "$FILE" ]
+then
+    echo "$FILE condition is true"
+else
+    echo "$FILE condition is false"
+fi
