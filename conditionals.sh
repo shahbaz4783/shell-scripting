@@ -4,8 +4,6 @@ IF Statement
 echo "What is your age?"
 read AGE
 
-# -ge means greater than equals
-
 if [ "$AGE" -ge 18 ]
 then
     echo "You are allowed to apply for voter ID Card"
@@ -46,3 +44,11 @@ then
 else
     echo "Please enter a valid continent name"
 fi
+
+
+# -eq : equals
+# -ne : not equals
+# -gt : greater than
+# -lt : less than
+# -le : less than or equal to
+# -ge : greater than or equal to
