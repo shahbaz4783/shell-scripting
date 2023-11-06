@@ -1,25 +1,25 @@
 #!/bin/bash
 
-# IF Statement
-# echo "What is your age?"
-# read AGE
+IF Statement
+echo "What is your age?"
+read AGE
 
 # -ge means greater than equals
 
-# if [ "$AGE" -ge 18 ]
-# then
-#     echo "You are allowed to apply for voter ID Card"
-# fi
+if [ "$AGE" -ge 18 ]
+then
+    echo "You are allowed to apply for voter ID Card"
+fi
 
 
 # IF - Else Statement
 
-# if [ "$AGE" -ge 18 ]
-# then
-#     echo "You are allowed to apply for a PAN Card"
-# else
-#     echo "You can apply for a PAN Card after $((18 - AGE)) years"
-# fi
+if [ "$AGE" -ge 18 ]
+then
+    echo "You are allowed to apply for a PAN Card"
+else
+    echo "You can apply for a PAN Card after $((18 - AGE)) years"
+fi
 
 
 # ELSE-IF (elif) Statement
