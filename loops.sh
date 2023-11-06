@@ -1,11 +1,11 @@
-#!/bin/bash
+# #!/bin/bash
 
-# NAMES="Alex Henry Kevin"
+NAMES="Alex Henry Kevin"
 
-# for PEOPLES in $NAMES
-#     do
-#         echo Hello $PEOPLES
-# done
+for PEOPLES in $NAMES
+    do
+        echo Hello $PEOPLES
+done
 
 
 # Rename file by for loop
